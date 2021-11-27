@@ -1,0 +1,58 @@
+.reviews-carousel-bcg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  height: 100vh;
+}
+
+.reviews-carousel-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.change-reviews-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.user-name {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.company-name {
+  text-align: center;
+}
+
+.review-description {
+  text-align: center;
+  width: 80%;
+}
+
+.reviews-heading {
+  color: #ffffff;
+}
+
+.arrow-button {
+  background-color: transparent;
+  border: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-carousel-container {
+    width: 90%;
+  }
+
+  .review-description {
+    width: 60%;
+  }
+}
